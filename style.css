@@ -45,7 +45,7 @@ body {
 button {
     height: 2.4rem;
     width: 6rem;
-    background-color:red;
+    background-color:navy;
     border-radius: 25px;
     font-weight: bold;
     font-size: 18px;
@@ -54,4 +54,8 @@ button {
 }
 button:hover{
     border: 1.5px solid white;
+    cursor: pointer;
+}
+button:active {
+    background-color: forestgreen;
 }
