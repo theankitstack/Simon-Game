@@ -4,13 +4,12 @@ body {
 }
 
 .btn {
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     border-radius: 20%;
-    border: 10px solid black;
+    border: 8px solid black;
     margin: 2.5rem;
 }
-
 
 .btn-container {
     display: flex;
@@ -43,19 +42,23 @@ body {
 }
 
 button {
-    height: 2.4rem;
+    height: 3rem;
     width: 6rem;
-    background-color:navy;
+    background-color:transparent;
     border-radius: 25px;
     font-weight: bold;
     font-size: 18px;
     border: none;
     color: white;
+    border: 2px solid white;
 }
+
 button:hover{
-    border: 1.5px solid white;
+    /* border: 2px solid rgb(3, 25, 9); */
     cursor: pointer;
 }
+
 button:active {
-    background-color: forestgreen;
+    border: none;
+    background-color: red;
 }
