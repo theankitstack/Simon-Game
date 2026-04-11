@@ -7,6 +7,8 @@ let started = false;
 let level = 0;
 
 let h2 = document.querySelector("h2");
+let startBtn = document.querySelector("button");
+
 
 document.addEventListener("keypress" , function () {
     if (started == false) {
