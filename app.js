@@ -9,8 +9,7 @@ let level = 0;
 let h2 = document.querySelector("h2");
 let startBtn = document.querySelector("button");
 
-
-document.addEventListener("keypress" , function () {
+startBtn.addEventListener("click", function () {
     if (started == false) {
         console.log("game is started");
         started = true;
@@ -18,6 +17,16 @@ document.addEventListener("keypress" , function () {
         levelUp();
     }
 });
+
+// 
+// document.addEventListener("keypress" , function () {
+//     if (started == false) {
+//         console.log("game is started");
+//         started = true;
+
+//         levelUp();
+//     }
+// });
 
 function gameFlash(btn) {
     btn.classList.add("flash");
