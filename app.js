@@ -8,6 +8,8 @@ let level = 0;
 
 let h2 = document.querySelector("h2");
 let startBtn = document.querySelector("button");
+ 
+//this fucntion both mobile and laptop users
 
 startBtn.addEventListener("click", function () {
     if (started == false) {
@@ -18,7 +20,8 @@ startBtn.addEventListener("click", function () {
     }
 });
 
-// 
+// this function only for laptop 
+
 // document.addEventListener("keypress" , function () {
 //     if (started == false) {
 //         console.log("game is started");
