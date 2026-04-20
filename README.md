@@ -2,7 +2,7 @@
 
 A fun and interactive Simon Game built using programming fundamentals. This memory-based game challenges players to repeat an increasingly complex sequence of colors correctly.
 
-🚀 Features
+# 🚀 Features
 Random color sequence generation
 Increasing difficulty with each level
 Sound and visual feedback
@@ -18,7 +18,8 @@ The game will highlight a color in the sequence
 Repeat the sequence by clicking the buttons in the correct order
 With each level, a new color is added to the sequence
 If you click the wrong color, the game ends
-📂 Project Setup
+
+# 📂 Project Setup
 
 Clone the repository:
 
